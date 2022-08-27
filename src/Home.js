@@ -12,7 +12,7 @@ const Home = () => {
           <Navbar.Brand href = '/'>Freelancer App</Navbar.Brand>
           <Nav className="me-auto">
             <Link to = '/register' className='btn btn-primary'>Register</Link>
-            <Link to = '/register' className='btn btn-primary'>Login</Link>
+            <Link to = '/login' className='btn btn-primary'>Login</Link>
             
           </Nav>
         </Container>
