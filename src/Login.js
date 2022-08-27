@@ -17,7 +17,7 @@ const Login = () => {
     }
     const handleSubmit = e =>{
         e.preventDefault();
-       axios.post('http://localhost:5000/login',data).then(
+       axios.post('https://freelancing-webapp.herokuapp.com/login',data).then(
         res => {localStorage.setItem('token', res.data.token);setAuth(true)}
        )
     }

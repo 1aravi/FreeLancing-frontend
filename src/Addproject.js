@@ -15,7 +15,7 @@ const handleChange = e =>{
 }
 const handleSubmit = e =>{
     e.preventDefault();
-    axios.post('http://localhost:5000/addproject', data)
+    axios.post('https://freelancing-webapp.herokuapp.com/addproject', data)
     .then(
     res => alert(res.data)
     )

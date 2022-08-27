@@ -7,7 +7,7 @@ const Myprofile = () => {
     const [data, setData] = useState([null]);
     
     useEffect(()=>{
-        axios.get('http://localhost:5000/myprofile',{
+        axios.get('https://freelancing-webapp.herokuapp.com/myprofile',{
             headers:{
                 'x-token' : localStorage.getItem('token')
             }

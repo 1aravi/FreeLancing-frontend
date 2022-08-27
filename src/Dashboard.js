@@ -6,7 +6,7 @@ import axios from 'axios';
 const Dashboard = () => {
     const [data, setData] = useState([]);
     useEffect(()=>{
-        axios.get('http://localhost:5000/allprofiles',{
+        axios.get('https://freelancing-webapp.herokuapp.com/allprofiles',{
             headers:{
                 'x-token' : localStorage.getItem('token')
             }

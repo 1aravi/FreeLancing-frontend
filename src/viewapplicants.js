@@ -9,7 +9,7 @@ const Viewapplicants = () => {
     const [data, setData] = useState([]);
     
     useEffect(()=>{
-        axios.get('http://localhost:5000/viewapplicant',{
+        axios.get('https://freelancing-webapp.herokuapp.com/viewapplicant',{
             headers:{
                 'x-token' : localStorage.getItem('token')
             }
