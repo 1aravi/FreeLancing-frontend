@@ -11,8 +11,8 @@ const Home = () => {
         <Container>
           <Navbar.Brand href = '/'>Freelancer App</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="/register">Register</Nav.Link>
-            <Nav.Link href ="/login">Login</Nav.Link>
+            <Link to = '/register' className='btn btn-primary'>Register</Link>
+            <Link to = '/register' className='btn btn-primary'>Login</Link>
             
           </Nav>
         </Container>
